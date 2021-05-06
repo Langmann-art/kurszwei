@@ -9,6 +9,7 @@ echo "Dieser Text wird mit php ausgegeben: ".$meineVariable. "hier geht es wiede
   echo "<br>";
 }
 ?>
-
+$cars = array("Volvo", "BMW", "Toyota");
+echo count($cars);
   </body>
     </html>
