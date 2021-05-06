@@ -4,7 +4,10 @@
     <h1>PHP Einführung</h1>
 <?php
 $meineVariable = "<b>Text</b>";
-echo "Dieser Text wird mit php ausgegeben:".$meineVariable. "hier geht es wieder weiter ".$meineVariable;
+for($i=1; $i<10; $i++){
+echo "Dieser Text wird mit php ausgegeben: ".$meineVariable. "hier geht es wieder weiter ".$meineVariable;
+  echo "\n";
+}
 ?>
 
   </body>
