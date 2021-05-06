@@ -1,4 +1,11 @@
-<?php
+<!DOCTYPE html>
+<html>
+  <body>
 
-ech "<h2>Hello World mit php</h2>";
+<?php
+$meineVariable = "Text";
+ech "My first PHP script!".$meineVariable;
 ?>
+
+  </body>
+    </html>
