@@ -4,7 +4,7 @@
 
 <?php
 $meineVariable = "Text";
-ech "My first PHP script!".$meineVariable;
+echo "Dieser Text wird mit php ausgegeben:".$meineVariable;
 ?>
 
   </body>
